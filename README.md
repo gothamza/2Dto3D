@@ -1,9 +1,14 @@
 so the front end is not thone yet it just a prototype so here is how to use it 
 
+
 $ pnpm  create vite
+
 √ Select a framework: » Vanilla
+
 √ Select a variant: » JavaScript
+
 Done. Now run:
+
 
   pnpm install
   pnpm run dev
