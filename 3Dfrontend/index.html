@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>3D Object Viewer</title>
+</head>
+<body>
+
+<div id="main" class="main">
+        <div class="head-nav">
+            <div class="logo">
+                <img src="photos/Hamza.png">
+            </div>           
+        </div>
+</div>
+
+<div id="home" class="home-content">
+    <div id="upload-section" >
+        <div>
+            <div class="left-top square"></div>
+            <div class="right-top square"></div>
+            
+        <h1>Hi There</h1>
+        <input type="file" id="image-input" class="button" accept="image/*" onchange="loadImage()">
+        <div id="image-container"></div>
+        <!-- Add this button after the first div -->
+        <button id="show-views-button" onclick="showViews()" style="display: none;" class="button">Show Views</button>
+        <div class="left-buttom square"></div>
+        <div class="right-buttom square"></div>
+    </div>
+    </div>
+    <div>
+        <div class="left-top square"></div>
+        <div class="right-top square"></div>
+        <div class="img">
+            <img src="photos/output-onlinegiftools.gif" id="home-img">
+        </div>
+        <div class="left-buttom square"></div>
+        <div class="right-buttom square"></div>
+    </div>
+</div> 
+
+
+
+
+<div >
+    <div id="view-section">
+        <div>
+            <div class="left-top square"></div>
+            <div class="right-top square"></div>
+        <h2>Multiple Views</h2>
+        <div id="views-container"></div>
+        <button id="show-object-button" onclick="showObject()" class="button service">Show 3D Object</button>
+        <div class="left-buttom square"></div>
+        <div class="right-buttom square"></div>
+    </div>
+    </div>
+
+</div>
+<div id="about-me" class="about-me">
+    <div id="object-section">
+        <div>
+            
+        <h2>3D Object Viewer</h2>
+        <div class="left-top square"></div>
+            <div class="right-top square"></div>
+        <div id="object-container"></div>
+        <div id="container3D"></div>
+
+        <!-- Move this button under the "Multiple Views" div -->
+        <div class="left-buttom square"></div>
+        <div class="right-buttom square"></div>
+    </div>
+    </div>
+</div>
+
+<script type="module" src="main.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
